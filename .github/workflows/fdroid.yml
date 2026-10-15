@@ -1,0 +1,38 @@
+name: Construir Repositorio F-Droid
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clonar el código
+        uses: actions/checkout@v4
+
+      - name: Instalar F-Droid Server
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y fdroidserver
+
+      - name: Inicializar y actualizar F-Droid
+        run: |
+          # Creamos una carpeta para alojar la estructura
+          mkdir fdroid-site
+          cd fdroid-site
+          
+          # Inicializa el repositorio (genera llaves de prueba automáticamente)
+          fdroid init
+          
+          # Copia todos los APKs de tu rama principal a la carpeta repo de F-Droid
+          cp ../*.apk repo/ || echo "No se encontraron archivos APK"
+          
+          # Genera el index.jar y actualiza la metadata
+          fdroid update -c
+
+      - name: Publicar en GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./fdroid-site
