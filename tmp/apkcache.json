@@ -1,0 +1,133 @@
+{
+  "METADATA_VERSION": 20002,
+  "allow_disabled_algorithms": false,
+  "AlceCorte.apk": {
+    "hash": "29eedfa396ebb7bc89bd23794774401c616c11520fecb1c69a263bd0d0c587f1",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.BLUETOOTH",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADMIN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_SCAN",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_ADVERTISE",
+        null
+      ],
+      [
+        "android.permission.BLUETOOTH_CONNECT",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        null
+      ],
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.sandiego.alcecorte.permission.C2D_MESSAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.camera",
+      "android.hardware.camera.flash",
+      "android.hardware.bluetooth"
+    ],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.sandiego.alcecorte.2.png",
+      "480": "com.sandiego.alcecorte.2.png",
+      "320": "com.sandiego.alcecorte.2.png",
+      "240": "com.sandiego.alcecorte.2.png",
+      "160": "com.sandiego.alcecorte.2.png",
+      "0": "com.sandiego.alcecorte.2.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.sandiego.alcecorte",
+    "versionCode": 2,
+    "name": "Corte Alce",
+    "versionName": "6.8",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 29,
+    "sig": "874a7ee6b28c4ab11ef0daf8e2872da1",
+    "signer": "6b51b987b8f818cac0203f0431c25c22a7982e8df43fd5111d6f2f09a2410caa",
+    "size": 6857037,
+    "apkName": "AlceCorte.apk",
+    "icon": "com.sandiego.alcecorte.2.png",
+    "added": 1792089138.71142
+  }
+}
