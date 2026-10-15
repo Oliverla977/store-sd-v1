@@ -24,6 +24,9 @@ jobs:
           
           # Inicializa el repositorio (genera llaves de prueba automáticamente)
           fdroid init
+
+          # Copia tu configuración personalizada (¡Agrega esta línea!)
+          cp ../config.yml . || echo "No config.yml encontrado"
           
           # Copia todos los APKs de tu rama principal a la carpeta repo de F-Droid
           cp ../*.apk repo/ || echo "No se encontraron archivos APK"
