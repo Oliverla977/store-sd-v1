@@ -128,6 +128,105 @@
     "size": 6857037,
     "apkName": "AlceCorte.apk",
     "icon": "com.sandiego.alcecorte.2.png",
-    "added": 1792089138.71142
+    "added": 1792089723.169322
+  },
+  "Campo.apk": {
+    "hash": "d9be1be1b8502412a76b8987f9e18d061bb2484c6555cf7ff0790a6e91d6d757",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_WIFI_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.sandiego.campo.permission.C2D_MESSAGE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.camera"
+    ],
+    "icons_src": {
+      "240": "res/mipmap-hdpi-v4/ic_launcher.png",
+      "160": "res/mipmap-mdpi-v4/ic_launcher.png",
+      "320": "res/mipmap-xhdpi-v4/ic_launcher.png",
+      "480": "res/mipmap-xxhdpi-v4/ic_launcher.png",
+      "640": "res/mipmap-xxxhdpi-v4/ic_launcher.png",
+      "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
+    },
+    "icons": {
+      "640": "com.sandiego.campo.6.png",
+      "480": "com.sandiego.campo.6.png",
+      "320": "com.sandiego.campo.6.png",
+      "240": "com.sandiego.campo.6.png",
+      "160": "com.sandiego.campo.6.png",
+      "0": "com.sandiego.campo.6.png"
+    },
+    "antiFeatures": [],
+    "packageName": "com.sandiego.campo",
+    "versionCode": 6,
+    "name": "Campo",
+    "versionName": "4.2",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 28,
+    "sig": "cc19023d1f7a109dd42887627ffcb106",
+    "signer": "30ec9c360754407a2c2f35815f11947ab87974e5fbe3a4b0d66971dac9862bfb",
+    "size": 6386251,
+    "apkName": "Campo.apk",
+    "icon": "com.sandiego.campo.6.png",
+    "added": 1792089723.770711
   }
 }

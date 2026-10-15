@@ -117,7 +117,7 @@ sdk_path: $ANDROID_HOME
 # The key (from the keystore defined below) to be used for signing the
 # repository itself. This is the same name you would give to keytool or
 # jarsigner using -alias. (Not needed in an unsigned repository).
-repo_keyalias: runnervm8k3b6.e3zk2pzlrrleboh20n41ic2nra.bx.internal.cloudapp.net
+repo_keyalias: runnervm8k3b6.0m0ttc1u53rezk4a1umjdwegrf.phxx.internal.cloudapp.net
 
 
 
@@ -149,20 +149,22 @@ keystore: keystore.p12
 # different than the keypass below, it can be OK to store the password in this
 # file for real use. But in general, sensitive passwords should not be stored
 # in text files!
-keystorepass: uK2ZjNpX2tz8y/q6+cH7wt0FmhYjqqeyKewMBQFnueE=
+keystorepass: tpMd/xauEklaUlewU0rpkqa1j4Vb9wj6B4W75mFIe5I=
 
 
 
 # The password for keys - the same is used for each auto-generated key as well
 # as for the repository key. You should not normally store this password in a
 # file since it is a sensitive password.
-keypass: uK2ZjNpX2tz8y/q6+cH7wt0FmhYjqqeyKewMBQFnueE=
+keypass: tpMd/xauEklaUlewU0rpkqa1j4Vb9wj6B4W75mFIe5I=
 
 
 
 # The distinguished name used for all keys.
-keydname: CN=runnervm8k3b6.e3zk2pzlrrleboh20n41ic2nra.bx.internal.cloudapp.net, OU=F-Droid
+keydname: CN=runnervm8k3b6.0m0ttc1u53rezk4a1umjdwegrf.phxx.internal.cloudapp.net,
+  OU=F-Droid
 
+  OU=F-Droid
 
 
 # Use this to override the auto-generated key aliases with specific ones
