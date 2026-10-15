@@ -32,7 +32,7 @@ jobs:
           cp ../*.apk repo/ || echo "No se encontraron archivos APK"
           
           # Genera el index.jar y actualiza la metadata
-          fdroid update -c
+          fdroid update -c --create-key
 
       - name: Publicar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
