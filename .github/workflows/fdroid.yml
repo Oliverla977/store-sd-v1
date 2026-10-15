@@ -26,13 +26,13 @@ jobs:
           fdroid init
 
           # Copia tu configuración personalizada (¡Agrega esta línea!)
-          cp ../config.yml . || echo "No config.yml encontrado"
+          # cp ../config.yml . || echo "No config.yml encontrado"
           
           # Copia todos los APKs de tu rama principal a la carpeta repo de F-Droid
           cp ../*.apk repo/ || echo "No se encontraron archivos APK"
           
           # Genera el index.jar y actualiza la metadata
-          fdroid update -c --create-key
+          fdroid update -c
 
       - name: Publicar en GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
