@@ -1,4 +1,7 @@
 repo_url: https://oliverla977.github.io/store-sd-v1/repo
 repo_name: "Repositorio de Oliver"
-repo_icon: fdroid-icon.png
 repo_description: "Este es mi repositorio personal de F-Droid para pruebas."
+keystore: keystore.p12
+repo_keyalias: fdroid
+keystorepass: password123
+keypass: password123
