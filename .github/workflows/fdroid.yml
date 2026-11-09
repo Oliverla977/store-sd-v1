@@ -31,7 +31,7 @@ jobs:
           # Copia todos los APKs de tu rama principal a la carpeta repo de F-Droid
           cp ../*.apk repo/ || echo "No se encontraron archivos APK"
           
-          # Genera el index.jar y actualiza la metadata
+          # Genera el index.jar y actualiza la metadata, prueba
           fdroid update -c
 
       - name: Publicar en GitHub Pages
