@@ -128,7 +128,7 @@
     "size": 6861133,
     "apkName": "AlceCorte.apk",
     "icon": "com.sandiego.alcecorte.2.png",
-    "added": 1794237814.543179
+    "added": 1794238828.634841
   },
   "Campo.apk": {
     "hash": "d9be1be1b8502412a76b8987f9e18d061bb2484c6555cf7ff0790a6e91d6d757",
@@ -227,6 +227,106 @@
     "size": 6386251,
     "apkName": "Campo.apk",
     "icon": "com.sandiego.campo.6.png",
-    "added": 1794237815.196342
+    "added": 1794238829.285944
+  },
+  "LaboresAgricolas.apk": {
+    "hash": "90b129bd422e8c6fe5fd06c1e059d1d48bc715aee3e90027f34b3fd14c44a32c",
+    "hashType": "sha256",
+    "uses-permission": [
+      [
+        "android.permission.CAMERA",
+        null
+      ],
+      [
+        "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.MANAGE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        null
+      ],
+      [
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.READ_EXTERNAL_STORAGE",
+        null
+      ],
+      [
+        "android.permission.INTERNET",
+        null
+      ],
+      [
+        "android.permission.ACCESS_NETWORK_STATE",
+        null
+      ],
+      [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_FINE_LOCATION",
+        null
+      ],
+      [
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        null
+      ],
+      [
+        "android.permission.REQUEST_INSTALL_PACKAGES",
+        null
+      ],
+      [
+        "android.permission.INSTALL_SHORTCUT",
+        null
+      ],
+      [
+        "android.permission.ACTION_MANAGE_OVERLAY_PERMISSION",
+        null
+      ],
+      [
+        "android.permission.POST_NOTIFICATIONS",
+        null
+      ],
+      [
+        "android.permission.WAKE_LOCK",
+        null
+      ],
+      [
+        "com.google.android.c2dm.permission.RECEIVE",
+        null
+      ],
+      [
+        "com.google.android.gms.permission.AD_ID",
+        null
+      ],
+      [
+        "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+        null
+      ]
+    ],
+    "uses-permission-sdk-23": [],
+    "features": [
+      "android.hardware.camera"
+    ],
+    "icons_src": {},
+    "icons": {},
+    "antiFeatures": {},
+    "packageName": "com.sandiego.laboresagricolas",
+    "versionCode": 9,
+    "name": "Labores Agricolas",
+    "versionName": "3.2",
+    "minSdkVersion": 21,
+    "targetSdkVersion": 31,
+    "sig": "43816c5596387ec96787bd1368a04e07",
+    "signer": "d34af6f99497229cd246b05bd77d1c96d277fccba83a80ce0509c0836e475e09",
+    "size": 5161717,
+    "apkName": "LaboresAgricolas.apk",
+    "added": 1794238829.906322
   }
 }
