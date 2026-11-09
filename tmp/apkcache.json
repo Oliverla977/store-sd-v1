@@ -2,7 +2,7 @@
   "METADATA_VERSION": 20002,
   "allow_disabled_algorithms": false,
   "AlceCorte.apk": {
-    "hash": "f957a99576e36adc786bdfb40317f1d019607532589d077807110d983c4f10df",
+    "hash": "a4b3fc012f4d6ce3131867fd09dd8ecc19f323944d9394ec6bf8b8f5b2a06510",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -120,7 +120,7 @@
     "packageName": "com.sandiego.alcecorte",
     "versionCode": 2,
     "name": "Corte Alce",
-    "versionName": "7.0",
+    "versionName": "7.1",
     "minSdkVersion": 21,
     "targetSdkVersion": 33,
     "sig": "874a7ee6b28c4ab11ef0daf8e2872da1",
@@ -128,7 +128,7 @@
     "size": 6861133,
     "apkName": "AlceCorte.apk",
     "icon": "com.sandiego.alcecorte.2.png",
-    "added": 1794249130.102704
+    "added": 1794252886.926672
   },
   "Campo.apk": {
     "hash": "d9be1be1b8502412a76b8987f9e18d061bb2484c6555cf7ff0790a6e91d6d757",
@@ -227,7 +227,7 @@
     "size": 6386251,
     "apkName": "Campo.apk",
     "icon": "com.sandiego.campo.6.png",
-    "added": 1794249130.619028
+    "added": 1794252887.414262
   },
   "LaboresAgricolas.apk": {
     "hash": "90b129bd422e8c6fe5fd06c1e059d1d48bc715aee3e90027f34b3fd14c44a32c",
@@ -327,6 +327,6 @@
     "signer": "d34af6f99497229cd246b05bd77d1c96d277fccba83a80ce0509c0836e475e09",
     "size": 5161717,
     "apkName": "LaboresAgricolas.apk",
-    "added": 1794249131.08517
+    "added": 1794252887.895601
   }
 }
