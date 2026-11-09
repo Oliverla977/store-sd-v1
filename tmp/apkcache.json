@@ -2,7 +2,7 @@
   "METADATA_VERSION": 20002,
   "allow_disabled_algorithms": false,
   "AlceCorte.apk": {
-    "hash": "a4b3fc012f4d6ce3131867fd09dd8ecc19f323944d9394ec6bf8b8f5b2a06510",
+    "hash": "f347f654be93e3bd997e9a1a5b61b18093080f5e13b95d454777ca6200e6d3af",
     "hashType": "sha256",
     "uses-permission": [
       [
@@ -109,26 +109,26 @@
       "-1": "res/mipmap-mdpi-v4/ic_launcher.png"
     },
     "icons": {
-      "640": "com.sandiego.alcecorte.2.png",
-      "480": "com.sandiego.alcecorte.2.png",
-      "320": "com.sandiego.alcecorte.2.png",
-      "240": "com.sandiego.alcecorte.2.png",
-      "160": "com.sandiego.alcecorte.2.png",
-      "0": "com.sandiego.alcecorte.2.png"
+      "640": "com.sandiego.alcecorte.3.png",
+      "480": "com.sandiego.alcecorte.3.png",
+      "320": "com.sandiego.alcecorte.3.png",
+      "240": "com.sandiego.alcecorte.3.png",
+      "160": "com.sandiego.alcecorte.3.png",
+      "0": "com.sandiego.alcecorte.3.png"
     },
     "antiFeatures": {},
     "packageName": "com.sandiego.alcecorte",
-    "versionCode": 2,
+    "versionCode": 3,
     "name": "Corte Alce",
-    "versionName": "7.1",
+    "versionName": "0.0",
     "minSdkVersion": 21,
     "targetSdkVersion": 33,
     "sig": "874a7ee6b28c4ab11ef0daf8e2872da1",
     "signer": "6b51b987b8f818cac0203f0431c25c22a7982e8df43fd5111d6f2f09a2410caa",
     "size": 6861133,
     "apkName": "AlceCorte.apk",
-    "icon": "com.sandiego.alcecorte.2.png",
-    "added": 1794252886.926672
+    "icon": "com.sandiego.alcecorte.3.png",
+    "added": 1794254340.748907
   },
   "Campo.apk": {
     "hash": "d9be1be1b8502412a76b8987f9e18d061bb2484c6555cf7ff0790a6e91d6d757",
@@ -227,7 +227,7 @@
     "size": 6386251,
     "apkName": "Campo.apk",
     "icon": "com.sandiego.campo.6.png",
-    "added": 1794252887.414262
+    "added": 1794254341.324174
   },
   "LaboresAgricolas.apk": {
     "hash": "90b129bd422e8c6fe5fd06c1e059d1d48bc715aee3e90027f34b3fd14c44a32c",
@@ -327,6 +327,6 @@
     "signer": "d34af6f99497229cd246b05bd77d1c96d277fccba83a80ce0509c0836e475e09",
     "size": 5161717,
     "apkName": "LaboresAgricolas.apk",
-    "added": 1794252887.895601
+    "added": 1794254341.865768
   }
 }
